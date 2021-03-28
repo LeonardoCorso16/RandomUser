@@ -2,10 +2,7 @@ const express = require('express');
 const faker = require('faker');
 const app = express();
 const port = 2500;
-faker.locale = 'pt_BR';
-                                                                                         
-
-
+                                                                                        
 app.get('/', (req, res) => {
   res.send(
     {
